@@ -1,0 +1,11 @@
+{
+  "products": [
+    { "id": "p1", "name": "Widget A", "sku": "WA-001", "price": 2.5 },
+    { "id": "p2", "name": "Gadget B", "sku": "GB-002", "price": 5.0 }
+  ],
+  "tx": [
+    { "id": "t1", "productId": "p1", "type": "buy", "qty": 100, "date": "2026-06-01T10:00:00Z" },
+    { "id": "t2", "productId": "p2", "type": "buy", "qty": 50, "date": "2026-06-01T11:00:00Z" },
+    { "id": "t3", "productId": "p1", "type": "sell", "qty": 20, "date": "2026-06-02T09:00:00Z" }
+  ]
+}
