@@ -1,0 +1,28 @@
+:root{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+body{background:#f6f8fa;color:#111;margin:0;padding:20px}
+
+.container{max-width:1000px;margin:0 auto}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.taskbar{display:flex;gap:6px}
+.taskbar button{background:#fff;border:1px solid #e1e4e8;padding:8px 12px;border-radius:6px;cursor:pointer}
+.taskbar button.active{background:#0366d6;color:#fff;border-color:#0366d6}
+.card{background:#fff;border:1px solid #e1e4e8;padding:16px;margin:12px 0;border-radius:6px}
+h1{margin:0 0 12px}
+form input, form select{padding:8px;margin-right:8px}
+form button{padding:8px 12px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+.row{display:flex;gap:8px;align-items:center}
+.tx{padding:6px 0;border-bottom:1px dashed #eee}
+.small-btn{padding:4px 8px;font-size:13px;border-radius:4px}
+.danger{background:#ef4444;color:#fff;border:none}
+.muted{color:#6a737d}
+.actions button{margin-right:6px}
+
+/* Modal */
+.modal-backdrop{position:fixed;left:0;top:0;right:0;bottom:0;background:rgba(0,0,0,0.4);display:none;align-items:center;justify-content:center;z-index:1000}
+.modal{background:#fff;padding:16px;border-radius:8px;max-width:520px;width:100%;box-shadow:0 6px 24px rgba(0,0,0,0.2)}
+.modal h3{margin-top:0}
+.modal .row{margin-top:8px}
+.modal.show{display:flex}
+.valued{font-weight:600}
